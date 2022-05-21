@@ -7,8 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description"content="an amazon web page for books">
+
     <title>Kindle.</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
    <th><h1>kindle</h1></th>
 </head>
 
@@ -31,9 +32,7 @@
 
         <br>
 
-        <form class="example" action="action_page.php">
-            <input type="text" name="search"  placeholder="search your books.."> 
-        </form>
+       
 
         <div class="logo">
             <a href="index.html"><img src="./assets/amazon logo.png" alt=""/></a>
@@ -126,10 +125,15 @@
     </div>
 
     <div class="topnav">
+        <form class="search-bar" action="action_page.php">
+            <input type="text"  class="form-control" name="search"  placeholder="search your books.."> 
+        </form>
           <a href="#newrelease">NewRelease</a>
           <a href="#featured">featured</a>
           <a href="#other">::</a> 
     </div>
+
+
 
 </body> 
 
@@ -147,14 +151,19 @@
         
 
        <img src="./images/the woman who.jpg" class="book-b">
-
+      
     </div>
-   
+
           
 </main>
+
+
 <footer>
 
 </footer>
 
 
+<script src="app.js">
+    
+</script>
 </html>
