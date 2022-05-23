@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&display=swap');
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     margin-left: 1em;
     box-sizing: border-box;
-    font-family:  'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -12,18 +13,19 @@ body {
     z-index: auto;
     background-color: white;
     display: flex;
-    height: 123vh; /* move center page */
+    height: 123vh;
+    /* move center page */
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    
+
 }
 
-   /* th controls kindle  */
+/* th controls kindle  */
 th {
     left: 2em;
     position: absolute;
-    top: 55px; 
+    top: 55px;
     font-size: 60px;
 }
 
@@ -60,12 +62,14 @@ td {
     align-items: center;
 }
 
-.books{
-    padding: 10px 0px; /* moving books left and right inside */
+.books {
+    padding: 10px 0px;
+    /* moving books left and right inside */
     display: flex;
     align-items: center;
     background-image: radial-gradient(circle, #ecb51b 0%, #ad8c44 100%);
-    height: 90px; /*  book background sizing */ 
+    height: 90px;
+    /*  book background sizing */
     border-radius: 20px;
     margin: 3.5rem .5rem;
     justify-content: space-between;
@@ -75,9 +79,9 @@ td {
 }
 
 
-.book-cov{
+.book-cov {
     width: 70px;
-    height: 115px; 
+    height: 115px;
     border-radius: 15px;
     margin-left: 0px;
     position: absolute;
@@ -85,13 +89,13 @@ td {
 }
 
 
-.book-cover{
+.book-cover {
     margin-right: 15px;
-    
+
 }
 
 
-.read-books{
+.read-books {
     display: flex;
 }
 
@@ -102,13 +106,15 @@ td {
     display: grid;
     grid-template-columns: 16% 79%;
     background-color: white;
-    grid-auto-rows: minmax(auto, auto);  /* book sizing */
+    grid-auto-rows: minmax(auto, auto);
+    /* book sizing */
     border-radius: 25px;
     justify-self: center;
-    height: 65vh;                        /*  backround sizing */
+    height: 65vh;
+    /*  backround sizing */
     outline-style: solid;
     color: black;
-    margin: 20px ;
+    margin: 20px;
     border: 5px solid black;
 }
 
@@ -119,20 +125,23 @@ main {
     position: absolute;
     margin: 20rem 60rem;
     padding: 30px 30px;
-    top: 300px;                         /* moves books in line two up and down */
+    top: 300px;
+    /* moves books in line two up and down */
     display: flex;
 }
 
 
 #navbar {
     color: #000;
-    top: 80px;                           /* moving side nav up and down */
+    top: 80px;
+    /* moving side nav up and down */
     right: 20%;
     padding: 0px;
     height: 0vh;
     background-color: white;
     position: relative;
-    width: -23px;                        /*gray background-color*/
+    width: -23px;
+    /*gray background-color*/
     list-style-type: none;
     color: #000;
 }
@@ -170,7 +179,8 @@ ul {
 
 .heading {
     color: black;
-    margin-top: -17em;            /* move books and (book you read up)*/
+    margin-top: -17em;
+    /* move books and (book you read up)*/
 }
 
 
@@ -180,7 +190,7 @@ h5 {
 
 
 #mini-logo {
-   width: 7em;
+    width: 7em;
 }
 
 
@@ -188,19 +198,21 @@ h5 {
     display: flex;
     align-self: stretch;
     flex-direction: row;
-} 
+}
 
 
 .yellow-container {
 
-   margin-left: 45em;
-   background-color: rgb(248, 149, 55);
-   padding-right: 0px;                          /* min-max page */
-   padding-top: 50px; 
-   padding-bottom: 700px;
-   padding-left: 80em; 
-   float: left;
-   border-radius: 60px 0px 0px 0px;           /* controls the yellow border */ 
+    margin-left: 45em;
+    background-color: rgb(248, 149, 55);
+    padding-right: 0px;
+    /* min-max page */
+    padding-top: 50px;
+    padding-bottom: 700px;
+    padding-left: 80em;
+    float: left;
+    border-radius: 60px 0px 0px 0px;
+    /* controls the yellow border */
 }
 
 
@@ -222,7 +234,7 @@ h5 {
     color: #000;
     margin-right: 0px;
     border: solid orange;
-} 
+}
 
 
 h6 {
@@ -238,7 +250,7 @@ h6 {
 
 
 a:hover {
- color: #f11010;
+    color: #f11010;
 
 }
 
@@ -249,13 +261,15 @@ a:hover {
     flex-direction: row;
     margin-left: -70px;
 }
- 
+
 
 .box-container {
-    padding: 0px 0px; /* moving books left and right inside */
+    padding: 0px 0px;
+    /* moving books left and right inside */
     align-items: center;
     background-image: radial-gradient(circle, #ecb51b 0%, #ad8c44 100%);
-    height: 0px; /*  book background sizing */ 
+    height: 0px;
+    /*  book background sizing */
     border-radius: 20px;
     margin: 3.5rem .5rem;
     justify-content: space-between;
@@ -271,7 +285,7 @@ a:hover {
 }
 
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -286,16 +300,16 @@ a:hover {
     font-weight: 300px;
     width: 660%;
     color: #000;
-    
+
 }
 
 
 form.example input[type=text] {
     border: 3px solid black;
-    padding-left: 99px;  
+    padding-left: 99px;
 }
 
-  
+
 form.example:hover {
     color: #ecb51b;
 }
@@ -315,6 +329,17 @@ form.example:hover {
     -moz-appearance: none;
     appearance: none;
     border-radius: .375rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
+.search-bar {
+    top: 0px;
+    left: 200px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: -220px;
+    margin-right: 20px;
+    margin-bottom: -30px;
+    color: #000;
+
+}

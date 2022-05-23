@@ -1,8 +1,8 @@
 
-function landingP(){
-location.replace("/index.html")
+function landingP() {
+    location.replace("/index.html")
 }
 
-function signUp(){
+function signUp() {
     location.replace("/sign_up.html")
 }
